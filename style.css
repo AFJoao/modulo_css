@@ -1,3 +1,106 @@
-h1 {
-    color: black;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: grey;
+    padding: 16px 0;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li   {
+    display: inline;
+}
+
+header li a {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 16px;
+}
+
+
+.container  {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px
+}
+
+section h2{ 
+    font-size: 32px;
+}
+
+#esportes{
+    background-color: rgb(216, 242, 252);
+}
+
+#economia{
+    background-color: rgb(241, 241, 227);
+}
+
+#tecnologia{
+    background-color: rgb(213, 246, 229);
+}
+
+#entretenimento{
+    background-color: rgb(231, 216, 251);
 }
